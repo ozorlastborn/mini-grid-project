@@ -1,0 +1,193 @@
+html{
+	box-sizing: border-box;
+	font-family: serif, sans-serif;
+	color: black;
+}
+
+
+body{
+	background: silver;
+	margin: 20px 50px;
+	line-height: 1.3;
+}
+
+/*head styling*/
+
+
+.head{
+	display: grid;
+	display: 20px;
+	font-family: sans-serif;
+	grid-template-columns: 1fr 1fr;
+}
+
+.head h1{
+	font-size: 4rem;
+}
+
+.head img{
+	height: 200px;
+	margin-left: 70%;
+	border-radius: 30% 50%;
+}
+
+.ref{
+	font-size: 50%;
+	text-decoration: none;
+	color: grey;
+	height: 10px;
+	width: 70%;
+}
+
+.wrap{
+	display: grid;
+	grid-gap: 20px;
+}
+
+.btn{
+	background: blue;
+	color: white;
+	text-decoration: none;
+	padding: 0.6rem 1rem;
+	box-shadow: 0 1px 5px black;
+	border-radius: 5px;
+}
+
+.btn:hover{
+	background: red;
+	color: grey;
+	transition-duration: 2s;	
+	box-shadow: 0 3px 10px black;	
+}
+
+.nav ul{
+	display: grid;
+	grid-gap: 20px;
+	list-style: none;
+	grid-template-columns: repeat(5, 5fr);
+}
+
+.nav a{
+	display: grid;
+	text-decoration: none;
+	padding: 0.6rem;
+	text-transform: uppercase;
+	background: gray;
+	color: white;
+	text-align: center;
+	font-size: 1.1rem;
+	box-shadow: 0 1px 5px black;
+}
+
+.nav a:hover{
+	width: 300px;
+	background: black;
+	color: purple;
+	font-family: cursive;
+	transition-duration: 2s;
+	box-shadow: 0 1px 5px sienna;
+	border-radius: 5px;
+}
+
+.com{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas: 
+	'showcase showcase topa'
+	'showcase showcase topb'
+}
+
+.showcase{
+	grid-area: showcase;
+	display: flex;
+	flex-direction: column;
+	background: url(black.jpg);
+	background-position: center;
+	background-size: cover;
+	align-items: start;
+	padding: 3rem;
+	min-height: 350px;
+	box-shadow: 1px 1px 5px black;
+	justify-content: center;
+}
+
+.showcase h1{
+	font-size: 60px;
+	color: black;
+	margin-top: 0;
+}
+
+.showcase p{
+	font-size: 20px;
+	color: black;
+	margin-top: 0
+}
+
+.top{
+	display: grid;
+	justify-content: center;
+	background: darkgrey;
+	box-shadow: 1px 1px 5px black;	
+	padding: 1rem;
+	align-items: center;
+}
+
+.top .go{
+	font-size: 2rem;
+}
+
+.topa{
+	grid-area: topa;
+}
+
+.topb{
+	grid-area: topb;
+}
+
+.box{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 4fr);
+}
+
+.boxes{
+	background: gray;
+	text-align: center;	
+	padding: 1.5rem 2rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 5px black;
+}
+
+.boxes:hover{
+	width: 300px;
+	background: silver;	
+}
+
+.info{
+	background: darkgrey;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	padding: 2rem;
+	margin-bottom: 3rem;
+	box-shadow: 1px 1px 5px black;
+}
+
+footer{
+	margin-bottom:1rem;	
+}
+
+.foot{
+	text-align: center;
+	color: blue;
+	padding: 10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.foot p{	
+	text-align: center;
+
+
+
